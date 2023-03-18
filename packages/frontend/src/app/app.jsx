@@ -1,11 +1,17 @@
-import NxWelcome from './nx-welcome';
+import Card from '../../pages/Overview/Components/Cards';
+import Routes from './Routes';
+import Layout from '../../layout';
+import TimeCard from '../../pages/Overview/Components/TimeCard';
 
 export function App() {
-  fetch('http://localhost:8080/api/addresses').then(console.log).catch(console.error);
   return (
-    <>
-      <NxWelcome title="frontend" />
-     </>
+    // <>
+    // <Card data = {{name: "Average of workload index", number: "69"}}/>
+    // <TimeCard data = {{from:"10PM", to:"5PM"}}/>
+    // </>
+    <Layout>
+      <Routes></Routes> 
+    </Layout>
   );
 }
 export default App;
