@@ -51,3 +51,7 @@ While we are loading some date on all the pages we need to show loading bar.
    1) we need to parse the CSV file from the static resource path in backend and write the data into db.
    2) All data should be stored in the DB and returned back to frontend without pagination.
    3) Fronted should take that list and make it pageable and sortable by workload index and usage index.
+
+
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?B128C392F2828B7F1408B7CE0D18C3767FBB
