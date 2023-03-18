@@ -29,6 +29,34 @@ const Traffic = () => {
           <div style={{height: 30, width: "100%", borderRadius: 20, border: "1px solid #E2E2EA", display:"flex", flexDirection:"column", justifyContent: "center",}}>
             <h1 style={{fontSize: 14, marginLeft: 20}}>Search by route id</h1>
           </div>
+          <table style={{width:"100%"}}>
+            <tr>
+              <td>
+                {"   "}
+              </td>
+              <td>
+                Route ID
+              </td>
+              <td>
+                Start adress
+              </td>
+              <td>
+                End adress
+              </td>
+              <td>
+                Workload index
+              </td>
+              <td>
+                Usage index
+              </td>
+              <td>
+                Start date
+              </td>
+              <td>
+                End date
+              </td>
+            </tr>
+          </table>
       </div>
     </div>
   );
